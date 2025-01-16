@@ -21,6 +21,9 @@ p img {
 
 nav {
     padding: 10px;
+    height: 30px;
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
 }
 
 nav a {
@@ -39,16 +42,28 @@ p {
     text-align: justify;
 }
 
+.posts {
+    width: 1000px;
+    height: 450px;
+    align-items: center;
+}
+
 .post_news {
     margin: 0px 0px 30px 30px;
+    width: 250px;
+    float: left;
 }
 
 .post_contest {
     margin: 0px 0px 30px 30px;
+    width: 250px;
+    float: left;
 }
 
 .post_plans {
     margin: 0px 0px 30px 30px;
+    width: 250px;
+    float: left;
 }
 
 .gallery img {
